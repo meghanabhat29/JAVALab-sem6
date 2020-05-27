@@ -9,13 +9,12 @@ public class TelephoneClass
 	{
 		Scanner sc=new Scanner(System.in)
 				;
-		HashMap<String,String> calls=new HashMap<String,String>();
-		calls.put("9900565593", "Pappa");
-		calls.put("9741366563","Mom");
-		calls.put("7795101595","Me");
-		calls.put("8197652968","Yashu");
 		
 		ArrayList<MissedCall> al=new ArrayList<MissedCall>();
+		al.add("9900565593", "Pappa");
+		al.add("9741366563","Mom");
+		al.add("7795101595","Me");
+		al.add("8197652968","Yashu");
 		int i=0;
 		while(true)
 		{
