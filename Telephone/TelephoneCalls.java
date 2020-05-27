@@ -3,7 +3,7 @@ package telephone;
 import java.io.*;
 import java.util.*;
 
-public class MainClass
+public class TelephoneClass
 {
 	public static void main(String args[])
 	{
